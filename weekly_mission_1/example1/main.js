@@ -1,3 +1,8 @@
+const biblioteca = require('./logger');
+biblioteca.Usiel('Hola');
+
+
+
 // 1. Creación de un objeto con propiedades
 
 let mycar = new Object(); //Creacion de un objeto
