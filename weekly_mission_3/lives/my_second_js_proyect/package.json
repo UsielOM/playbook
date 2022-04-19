@@ -1,0 +1,14 @@
+{
+  "name": "my_second_js_proyect",
+  "version": "1.0.0",
+  "description": "Este es mi segundo proyecto de prueba",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Usiel",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^27.5.1"
+  }
+}

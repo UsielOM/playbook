@@ -1,0 +1,1 @@
+const pkemon = require('./app/Pokemon')
