@@ -22,4 +22,13 @@ describe("Prueba de jest", () => {
         const user = new User(2, "usix21", "usielOM", "Bio")
         expect(user.getUsername).toBe("usix21")
     })
+
+    test("Requirimiento 4: ", () => {
+
+
+
+        const user = new User(2, "usix21", "usielOM", "Bio")
+        user.setUsername = "usix31"
+        expect(user.username).toBe("usix31")
+    })
 })
