@@ -53,5 +53,14 @@ app.post('/v1/explorers', (req, res) => {
     console.log(req.body)
     console.log(req.params.id)
     res.status(201).json({ message: "aCTUALIZADO EXITOSAMENTE  " })
-        //post para crear 
+
+})
+
+app.delete('/v1/explorers/:id', (req, res) => {
+
+    console.log(`DELETE EXPLORERS V1 API ${new Date()}`)
+
+
+    res.status(201).json({ message: "Se eliminado" })
+
 })
