@@ -46,3 +46,12 @@ app.post('/v1/explorers', (req, res) => {
     res.status(201).json({ message: "Creado exitosamente" })
         //post para crear 
 })
+
+.put('/v1/explorers', (req, res) => {
+
+    console.log(`PUT EXPLORERS V1 API ${new Date()}`)
+    console.log(req.body)
+    console.log(req.params.id)
+    res.status(201).json({ message: "aCTUALIZADO EXITOSAMENTE  " })
+        //post para crear 
+})
