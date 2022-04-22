@@ -17,6 +17,14 @@ app.get('/', (req, res) => {
 app.get('/launchx', (req, res) => {
 
     res.send("Bienvenidos a lunchX")
+
+})
+
+
+app.get('/node', (req, res) => {
+    const explorer1 = { id: 1, name: "Explorer" }
+    res.send(explorer1)
+
 })
 
 
@@ -25,3 +33,5 @@ app.listen(port, () => {
 
     console.log("Server Listo!")
 })
+
+//curl puedo hacer peticiones a servidores
