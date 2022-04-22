@@ -27,6 +27,15 @@ app.get('/node', (req, res) => {
 
 })
 
+//query parts
+//localhost/explorers/usiel
+app.get('/explores/:explorer', (req, res) => {
+
+    console.log(req.params)
+    res.send(req.params)
+        //params se gaurdan por defecto las cosas 
+})
+
 
 
 app.listen(port, () => {
