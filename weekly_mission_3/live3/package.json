@@ -4,13 +4,14 @@
     "description": "Express",
     "main": "index.js",
     "scripts": {
-
         "test": "node --experimental-vm-modules ./node_modules/jest/bin/jest"
-
     },
     "author": "UsielOM",
     "license": "ISC",
     "devDependencies": {
         "jest": "^27.5.1"
+    },
+    "dependencies": {
+        "express": "^4.17.3"
     }
 }
