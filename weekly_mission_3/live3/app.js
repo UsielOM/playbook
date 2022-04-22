@@ -11,8 +11,6 @@ app.get('/', (req, res) => {
 })
 
 
-
-
 //localhost:3000/launchx
 app.get('/launchx', (req, res) => {
 
@@ -39,8 +37,11 @@ app.get('/explores/:explorer', (req, res) => {
 
 
 app.listen(port, () => {
-
     console.log("Server Listo!")
 })
 
 //curl puedo hacer peticiones a servidores
+
+//cuida del orden para que el orden para que cuide de nosotros 
+
+//--save = actualiza packet json localmente
