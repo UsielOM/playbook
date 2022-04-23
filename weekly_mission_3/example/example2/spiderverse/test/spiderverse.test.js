@@ -1,6 +1,14 @@
-describe("Test Suite Dummy Description", () => {
+const Spidermans = require('./../../spiderverse/app/spiderman')
+describe("Test de spiderman", () => {
     test('Case 1 Dummy', () => {
-        const resultOfSomething = 1 + 2
-        expect(resultOfSomething).toBe(3);
+
+        const andrew = new Spidermans("Spiderman Sony", 31, "Andrew", 3, "Sony")
+        expect(andrew.nombre).toBe("Spiderman Sony");
+        expect(andrew.edad).toBe(31);
+        expect(andrew.actor).toBe("Andrew");
+        expect(andrew.nPeliculas).toBe(3);
+        expect(andrew.estudioCine).toBe("Sony");
+
+
     });
 })
