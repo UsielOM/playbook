@@ -1,0 +1,15 @@
+{
+    "name": "spiderverse",
+    "version": "1.0.0",
+    "description": "Diseño de Software con DDT",
+    "main": "index.js",
+    "scripts": {
+
+        "test": "node --experimental-vm-modules ./node_modules/jest/bin/jest"
+    },
+    "author": "UsielOM",
+    "license": "ISC",
+    "devDependencies": {
+        "jest": "^27.5.1"
+    }
+}
