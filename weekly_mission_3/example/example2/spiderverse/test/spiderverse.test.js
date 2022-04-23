@@ -11,4 +11,14 @@ describe("Test de spiderman", () => {
 
 
     });
+
+    test("Requerimiento 2: Regresar informacion", () => {
+
+        const tomHolland = new Spidermans("Spiderman Marvel HD", 25, "Tom", 5, "Marvel")
+        expect(tomHolland.getInfo()).toBe("Hey, I'm Tom Holland from Marvel studio")
+
+
+
+    })
+
 })

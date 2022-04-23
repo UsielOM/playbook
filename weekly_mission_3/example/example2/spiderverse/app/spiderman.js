@@ -6,6 +6,10 @@ class Spiderman {
         this.nPeliculas = nPeliculas
         this.estudioCine = estudioCine
     }
+
+    getInfo() {
+        return ("Hey, I'm Tom Holland from Marvel studio");
+    }
 }
 
 module.exports = Spiderman
