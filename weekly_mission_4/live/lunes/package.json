@@ -1,15 +1,18 @@
 {
-    "name": "twitter",
+    "name": "lunes",
     "version": "1.0.0",
-    "description": "",
+    "description": "Refactorizando",
     "main": "index.js",
     "scripts": {
 
         "test": "node --experimental-vm-modules ./node_modules/jest/bin/jest"
     },
-    "author": "",
+    "author": "UsielOM",
     "license": "ISC",
     "devDependencies": {
-        "jest": "^27.5.1"
+        "jest": "^28.0.2"
+    },
+    "dependencies": {
+        "express": "^4.18.0"
     }
 }
